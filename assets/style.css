@@ -1,0 +1,100 @@
+*{
+    font-family: Goldman;
+}
+
+.uno{
+    background-color: #7209B7;
+    width: 1440px;
+    height: 1080px;
+    margin: auto;
+}
+
+.dos{
+    background-color:#7209B7;
+    width: 970px;
+    height: 119px;
+    float: right;
+}
+
+.botones{
+    padding: 34px;
+}
+
+.input{
+    width: 272px;
+    height: 44px;
+}
+
+.boton{
+    width: 146px;
+    height: 50px;
+    background-color: #FFBA08;
+}
+
+.boton2{
+    width: 211px;
+    height: 50px;
+    background-color: #FFBA08;
+}
+
+
+.tab{
+    margin-left: 35px;
+}
+
+.tab2{
+    margin-left: 183px;
+}
+
+.tamano{
+    font-size: 28px;
+}
+
+.tamano1{
+    font-size: 30px;
+}
+
+.tamano2{
+    font-size: 34px;
+}
+
+.nav-principal{
+    width: 1440px;
+    height: 50px;
+    background-color: #FFBA08;
+    display: flex;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 110px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.Texto{
+    width: 262px;
+    height: 30px;
+    float: left;
+    padding: 0;
+    display: block;
+    font-size: 34px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #D9D9D9;
+    ;
+}
+
+.tres{
+    height: 783px ;
+}
+
+.footer-conf{
+    height:133px;
+    background-color: black;
+}
