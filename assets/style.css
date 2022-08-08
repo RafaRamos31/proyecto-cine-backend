@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 *{
-    font-family: Goldman;
+    font-family: 'Goldman', cursive;
 }
 
 .uno{
@@ -51,7 +52,7 @@
 }
 
 .tamano1{
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .tamano2{
@@ -72,7 +73,7 @@ nav ul{
 
 ul li{
     display: inline-block;
-    padding-left: 110px;
+    padding-left: 80px;
     padding-top: 10px;
     font-size: 24px;
 }
@@ -97,4 +98,71 @@ ul li{
 .footer-conf{
     height:133px;
     background-color: black;
+    display: flex;
+}
+
+.imagenes{
+    width: 100px;
+    height: 100px;
+    
+}
+
+footer a img{
+    width: 117px;
+    height: 111px;
+}
+
+.g{
+    display: flex;
+    padding-left: 544px;
+}
+
+.paddding-bird{
+    padding-left: 117px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.img1{
+    width: 600px;
+    height: 338px;
+    margin-top: 15px;
+}
+
+.move{
+    margin-left: 117px;
+}
+
+.tamanoo{
+    width: 538px;
+    height: 359px;
+}
+
+.editar-h2{
+    margin: 0;
+    padding: 45px 0 21px 0;
+    color: white;
+    font-size: 34px;
+}
+
+.direcciones{
+    text-align: end;
+    padding-right: 241px;
+    padding-top: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.direcciones-dos{
+    text-align: end;
+    padding-right: 350px;
+    font-size: 24px;
+    color: white;
+    padding-top: 27px;
 }
