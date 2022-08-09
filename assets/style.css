@@ -333,3 +333,127 @@ footer a img{
     grid-column-end: 7;
     display: grid;
 }
+
+.titulo{
+    width: 1289px;
+    height: 52px;
+    background-color: #D6193B;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 110px;
+}
+
+.langg{
+    width: 735px;
+    height: 49px;
+    font-size: 30px;
+}
+
+.edit{
+    background-color: #FFBA08;
+    width: 443px;
+    margin-left: 110px;
+}
+
+.editt{
+    padding-right: 100px;
+    display: block; float: left;
+    width: 300px
+}
+
+.send{
+    width: 41px;
+    height: 49px;
+    padding-right: 39px;
+    
+}
+
+.forma{
+    float: right;
+    padding-top: 40px;
+}
+
+.space{
+    margin-left: 72px;
+}
+
+.formaDos{
+    float: right;
+    padding-top: 52px;
+}
+
+.formaDoss{
+    float: right;
+    width: 1200px;
+    padding-top: 52px;
+}
+
+.impr{
+    height: 52px; 
+    width: 1291px; 
+    background-color: white; 
+    float: right; 
+    margin-top: 81px; 
+    margin-right: 39px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.imprDos{
+    height: 178px; 
+    width: 1291px; 
+    background-color: white; 
+    float: right;  
+    margin-right: 39px;
+}
+
+.negro{
+    background-color:  #D6193B;
+    color: #FFFFFF;
+    width: 440px;
+    height: 47px;
+    margin-bottom: 121px;
+}
+
+.ultimo-div{
+    width: 1291px;
+    background-color: #D6193B;
+    margin-left: 110px;
+    display: grid;
+    grid: 48px/521px 770px;
+}
+
+.texx{
+    background-color: #D9D9D9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 48px;
+}
+
+.fuente{
+    font-size: 30px;
+}
+
+.texxx{
+    grid-column-start: 2;
+    background-color: #D9D9D9;
+    border-left: gray 1px solid;
+}
+
+.tex{
+    display: grid;
+    grid: 219px/521px 770px;
+    background-color: #FFFFFF;
+    
+}
+
+/*.divNuevo{
+    display: grid;
+    grid: 106px;
+    grid: 619px/200px 210px 200px 216px 213px 167px;
+    background-color: #2196F3;
+    margin-left: 122px;
+    margin-right: 110px;
+}
