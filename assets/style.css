@@ -3,6 +3,28 @@
     font-family: 'Goldman', cursive;
 }
 
+/*Paleta de colores global*/
+:root {
+    /*Objetos*/
+    --bg-header: #290343;
+    --bg-body: #7209B7;
+    --bg-panel: #FFBA08;
+    --bg-footer:#1a1a1a;
+    --bg-button-1: #FFBA08;
+    --bg-button-1-hover: #af7f06;
+    --bg-button-2:  #149afa;
+    --bg-button-2-hover: #0c62a0;
+    --bg-button-3:  #C2000B;
+    --bg-button-3-hover: #810209;
+    /*Texto*/
+    --text-body: white;
+    --text-panel: black;
+    --text-button-1: black;
+    --text-button-2: white;
+    --text-button-3: white;
+}
+
+
 .uno{
     background-color: #7209B7;
     width: 1440px;
@@ -367,7 +389,6 @@ footer a img{
     width: 41px;
     height: 49px;
     padding-right: 39px;
-    
 }
 
 .forma{
@@ -390,16 +411,7 @@ footer a img{
     padding-top: 52px;
 }
 
-.impr{
-    height: 52px; 
-    width: 1291px; 
-    background-color: white; 
-    float: right; 
-    margin-top: 81px; 
-    margin-right: 39px;
-    font-size: 30px;
-    text-align: center;
-}
+c
 
 .imprDos{
     height: 178px; 
@@ -456,4 +468,66 @@ footer a img{
     background-color: #2196F3;
     margin-left: 122px;
     margin-right: 110px;
+}
+*/
+
+----Footer-----------------
+.contenedor {
+    max-width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.site-footer {
+    padding: 3rem;
+    background-color: var(--bg-footer);
+    color: var(--text-body);
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+.grid-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.red img{
+    display: inline;
+    max-height: 3.5rem;
+}
+
+.red span{
+    font-style: italic;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.footer-menu a , .red{
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    transition: .3s ease-out;
+}
+
+.footer-menu a:hover , .red:hover{
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    transition: .3s ease-out;
+    color: var(--bg-panel);
+}
+
+.copyright {
+    border-top: 1px solid var(--text-body);
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 0;
 }
