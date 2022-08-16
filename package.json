@@ -1,0 +1,26 @@
+{
+    "name": "finalproject-backend",
+    "version": "1.0.0",
+    "description": "Diseño de pagina Web de un Cine (Backend)",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js",
+        "dev": "nodemon ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RafaRamos31/proyecto-cine-backend.git"
+    },
+    "author": "Team Rafa",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RafaRamos31/proyecto-cine-backend/issues"
+    },
+    "homepage": "https://github.com/RafaRamos31/proyecto-cine-backend#readme",
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
